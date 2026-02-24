@@ -17,7 +17,7 @@ body{
     font-family: "Apple Chancery";
     background: #D9CFC7;
     width: 25vw;
-    height: 55vh;
+    height: 60vh;
     border-radius: 30px;
 }
 
@@ -27,34 +27,33 @@ body{
 
 .inContainer{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     background: #C9B59C;
     width: 22vw;
-    height: 45vh;
+    height: 50vh;
     border-radius: 30px;
     margin-bottom: 25px;
+    overflow-y: auto;
 
 }
 
 .inContainerList{
-    background: orange;
     flex: 1;
 }
 
-.inContainer button{
+.mainContainer button{
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Apple Chancery";
-    background: #C9B59C;
+    background: #D9CFC7;
     border: none;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
 }
 
-.inContainer button:hover{
+.mainContainer button:hover{
     transform: scale(1.5);
 
 }
@@ -77,8 +76,9 @@ body{
 }
 
 .secondContainer #inputTask{
-    width: 200px;
-    height: 50px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
 }
 
 .secondContainer #closeTaskInput{
@@ -87,6 +87,16 @@ body{
     top: 0px;
     border-radius: 50px;
     background: #CD8D7A;
+}
+
+.secondContainer #addTaskToList{
+    position: absolute;
+    bottom: 0px;
+    border-radius: 50px;
+    background: #C9B59C;
+    width: 50px;
+    font-family: "Apple Chancery";
+
 
 }
 
