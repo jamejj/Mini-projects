@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EFE9E3;
+    min-height: 100vh;
+    margin: 0;
+
+
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Apple Chancery";
+    background: #D9CFC7;
+    width: 25vw;
+    height: 55vh;
+    border-radius: 30px;
+}
+
+.mainContainer:hover{
+    transform: scale(1.2);
+}
+
+.inContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C9B59C;
+    width: 22vw;
+    height: 45vh;
+    border-radius: 30px;
+    margin-bottom: 25px;
+
+}
+
+.inContainerList{
+    background: orange;
+    flex: 1;
+}
+
+.inContainer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Apple Chancery";
+    background: #C9B59C;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+.inContainer button:hover{
+    transform: scale(1.5);
+
+}
+
+.secondContainer {
+    position: absolute;
+    right: 20vw;
+    font-family: "Apple Chancery";
+    background: #D9CFC7;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+
+}
+
+.secondContainer #inputTask{
+    width: 200px;
+    height: 50px;
+}
+
+.secondContainer #closeTaskInput{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 50px;
+    background: #CD8D7A;
+
+}
+
+
+
+
