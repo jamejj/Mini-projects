@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7FC29B;
+    min-height: 100vh;
+    font-family: "PHOSPHATE"
+}
+
+.firstContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #8BF08E;
+    width: 60vw;
+    height: 50vh;
+}
+
+.firstContainer h1{
+    cursor: default;
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
