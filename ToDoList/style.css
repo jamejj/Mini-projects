@@ -6,8 +6,19 @@ body{
     min-height: 100vh;
     margin: 0;
 
-
 }
+
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#list li .deleteBtn{
+    background-color: #C9B59C;
+}
+
+
 
 .mainContainer{
     display: flex;
@@ -99,7 +110,3 @@ body{
 
 
 }
-
-
-
-

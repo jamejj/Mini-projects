@@ -20,19 +20,31 @@ function closeTaskInput(){
 }
 
 function addTaskToList(){
-    const text = clearInput.value.trim();
-    if (text === '')
-        return;
+      const text = clearInput.value.trim();
 
-    const li = document.createElement('li');
-    li.textContent = text;
+      if (text === ''){
+        alert('Enter your task')
+          return;
+      }
 
-    list.appendChild(li);
+      const li = document.createElement('li');
 
-  /*  closeTaskInput();*/
+      const span = document.createElement('span');
+      span.textContent = text;
 
-}
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = 'x';
+      deleteButton.style.marginRight = '10px';
+      deleteButton.className = 'deleteBtn';
 
+      deleteButton.onclick = function(){
+        li.remove();
+      };
 
+      li.appendChild(span);
+      li.appendChild(deleteButton);
 
+      list.appendChild(li);
 
+     closeTaskInput();
+  }
