@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     align-items: center;
@@ -73,4 +77,73 @@ body{
     text-decoration: none;
     color: black;
 }
+
+.exercise:visited{
+    color: black;
+}
+
+.secondContainerExercise{
+    font-size: x-large;
+    background: #7FC29B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 30vw;
+    min-height: 30vh;
+    height: auto;
+    border-radius: 30px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#calculate{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    background: #7FC29B;
+    border: none;
+
+    font-size: large;
+    cursor: pointer;
+    background: #7FC29B;
+    border: none;
+    font-size: large;
+    font-family: "PHOSPHATE";
+    cursor: pointer;
+}
+
+#calculate:hover{
+    transform: scale(1.5);
+}
+
+.data input[type="number"]{
+    width: 100%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+
+
+
 
