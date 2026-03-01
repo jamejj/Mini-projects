@@ -17,6 +17,5 @@ function calculate(event){
         oneRepMax = maxWeight*(1+(0.0333*maxReps));
     }
 
-    result.textContent = oneRepMax.toFixed(2) + 'kg';
-
+    result.textContent ='Your 1RM is ~ ' + oneRepMax.toFixed(2) + ' kg';
 }
