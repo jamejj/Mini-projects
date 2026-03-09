@@ -8,10 +8,21 @@
 | OneRepMaxCalculator | Calculating max weights at gym | HTML, CSS, JavaScript |
 
 ## ToDoList 📌
-### A simple task managment application
-### Undone
+### A simple task management application
+
+### Features
+- add tasks
+- mark tasks as completed
+- delete tasks
+
+### Future Features
+- localStorage support
+- task editing
+- priorities
+  
+![image_alt](https://github.com/jamejj/Mini-projects/blob/main/ToDoList/ToDoList.png)
 
 ## OneRepMaxCalculator🏋️
 ### A simple calculator that estimates your one-repetition maximum (1RM) using Epley's formula.
-### Epley's formula: 1RM = weight*(1+(0.0333*reps))
+#### Epley's formula: 1RM = weight*(1+(0.0333*reps))
 ![image_alt](https://github.com/jamejj/Mini-projects/blob/b1c4618f8e92ef4690f33843f27c69430c5ce015/OneRepMaxCalculator/OneRepMax.png)
