@@ -40,7 +40,7 @@
  ```python
 python create_gif.py
 ```
-![image_alt](https://github.com/jamejj/Mini-projects/blob/21fbe1632f884a9cc65fa425bec977bcf73ccf1c/GIF%20Maker/GIF.gif)
+![image_alt](https://github.com/jamejj/Mini-projects/blob/3bff1e1e784263dccf96bf8969a941be94348a03/GIF%20Maker/GIF.gif)
 
   
 
