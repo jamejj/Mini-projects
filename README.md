@@ -6,6 +6,7 @@
 |---------|------------|------|
 | ToDoList | Mini chcklist for tasks | HTML, CSS, JavaScript |
 | OneRepMaxCalculator | Calculating max weights at gym | HTML, CSS, JavaScript |
+| GIF Maker | Create GIF with PNGs| Python |
 
 ## ToDoList 📌
 ### A simple task management application
@@ -26,3 +27,21 @@
 ### A simple calculator that estimates your one-repetition maximum (1RM) using Epley's formula.
 #### Epley's formula: 1RM = weight*(1+(0.0333*reps))
 ![image_alt](https://github.com/jamejj/Mini-projects/blob/b1c4618f8e92ef4690f33843f27c69430c5ce015/OneRepMaxCalculator/OneRepMax.png)
+
+## GIF Maker🎞️
+### A simple Python script to automatically create animated GIF files from a sequence of PNG images.
+### How to start:
+* #### Install the required library:
+ ```python
+  pip3 instal imageio
+  ```
+* #### Place your img_1.png, img_2.png, etc., in the same folder as the script.
+* #### Run the script:
+ ```python
+python create_gif.py
+```
+![image_alt](https://github.com/jamejj/Mini-projects/blob/21fbe1632f884a9cc65fa425bec977bcf73ccf1c/GIF%20Maker/GIF.gif)
+
+  
+
+
