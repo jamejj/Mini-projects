@@ -8,6 +8,7 @@
 | OneRepMaxCalculator | Calculating max weights at gym | HTML, CSS, JavaScript |
 | GIF Maker | Create GIF with PNGs| Python |
 | Discord Bot | Interactive bot for Discord| Python |
+| Counter | Application for counting|  HTML, CSS, JavaScript|
 
 ## ToDoList 📌
 ### A simple task management application
@@ -76,6 +77,5 @@ $meme
   
 ![image_alt](https://github.com/jamejj/Mini-projects/blob/432ee7acad588cc5926e45ed1a292f35e604683a/DiscordBot/GIFDiscordBot.gif)
 
-  
-
-
+## Counter 🕐
+### A simple counter built with HTML, CSS, and JavaScript. Increment the count, save previous entries, and track totals with a clean interface.
