@@ -9,6 +9,7 @@
 | GIF Maker | Create GIF with PNGs| Python |
 | Discord Bot | Interactive bot for Discord| Python |
 | Counter | Application for counting|  HTML, CSS, JavaScript|
+| Business Card | Simple digital business card | React, JavaScript, CSS, Vite|
 
 ## ToDoList 📌
 ### A simple task management application
@@ -79,3 +80,8 @@ $meme
 
 ## Counter 🕐
 ### A simple counter built with HTML, CSS, and JavaScript. Increment the count, save previous entries, and track totals with a clean interface.
+
+## Business Card 💼
+### A simple digital business card built with React and CSS to practice React components, styling, and basic interactivity.
+![image_alt](https://github.com/jamejj/Mini-projects/blob/ec6e84a04cbf104c614a10dae52b6b709dfb9643/Business%20Card/assets/img.png)
+
